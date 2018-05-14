@@ -84,7 +84,7 @@
 
     .text-largest {
       font-size: 1.925rem;
-      line-height: 2.25rem;
+      line-height: 2.5rem;
     }
 
     .mad-lib {
@@ -94,6 +94,10 @@
     .mad-lib p {
       margin: 0;
       line-height: 2.5;
+    }
+
+    .footer {
+      padding: 20vh 12vh;
     }
 }
 
@@ -142,7 +146,7 @@
     }
 
     .footer {
-      padding: 14vh 14vh;
+      padding: 16vh 8vh;
     }
 
 }
