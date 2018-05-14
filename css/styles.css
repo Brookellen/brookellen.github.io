@@ -21,7 +21,7 @@ h1 {
 	font-weight: 900;
 	font-size: 6.5rem;
 	padding: 5vh 0 0 0;
-	color: #5035b1;
+	color: #471fb9;
 }
 
 h2 {
@@ -74,7 +74,7 @@ a {
 }
 
 .results a {
-	color: #5035b1;
+	color: #471fb9;
 	font-weight: bold;
 	cursor: pointer;
 	text-decoration: none;
@@ -143,7 +143,7 @@ button a {
 }
 
 .material-blue {
-	background-color: #3f51b5;
+	background-color: #3b31bd;
 }
 
 .bold {
@@ -192,8 +192,13 @@ button a {
 	margin-top: 0;
 }
 
+.results p {
+	line-height: 2.75rem;
+	padding-top: 2vh;
+}
+
 .mad-lib button {
-	background: #5035b1;
+	background: #471fb9;
 	margin-top: 4rem;
 }
 
@@ -220,7 +225,7 @@ button a {
 
 .footer {
 	padding: 30vh 30vh;
-	background-color: #feed47;
+	background-color: #ffed3a;
 }
 
 .footer h5 {
@@ -263,7 +268,7 @@ button a {
 }
 
 .long-form a {
-	color: #5035b1;
+	color: #471fb9;
 	font-weight: bold;
 	cursor: pointer;
 	text-decoration: none;
