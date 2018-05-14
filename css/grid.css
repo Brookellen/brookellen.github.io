@@ -1,0 +1,96 @@
+/* Fluid Grid based on float */
+
+:root {
+  --r-grid-unit: calc(100% / 12);
+}
+
+html {
+  box-sizing: border-box;
+}
+*,* :before, *:after {
+  box-sizing: inherit;
+}
+
+.container::after,
+.container::before,
+.row::after,
+.row::before {
+  display: table;
+  content: " ";
+}
+
+.container::after,
+.row::after {
+  clear: both;
+}
+
+.container {
+  padding: 0 1rem;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.row {
+  margin: 0 -1rem;
+}
+
+[class*="col-"] {
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.col-1 {
+  width: calc(var(--r-grid-unit) * 1);
+}
+
+.col-2 {
+  width: calc(var(--r-grid-unit) * 2);
+}
+
+.col-3 {
+  width: calc(var(--r-grid-unit) * 3);
+}
+
+.col-4 {
+  width: calc(var(--r-grid-unit) * 4);
+}
+
+.col-5 {
+  width: calc(var(--r-grid-unit) * 5);
+}
+
+.col-6 {
+  width: calc(var(--r-grid-unit) * 6);
+}
+
+.col-7 {
+  width: calc(var(--r-grid-unit) * 7);
+}
+
+.col-8 {
+  width: calc(var(--r-grid-unit) * 8);
+}
+
+.col-9 {
+  width: calc(var(--r-grid-unit) * 9);
+}
+
+.col-10 {
+  width: calc(var(--r-grid-unit) * 10);
+}
+
+.col-11 {
+  width: calc(var(--r-grid-unit) * 11);
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.navtoggle {
+  display: hidden;
+  outline: none;
+}
