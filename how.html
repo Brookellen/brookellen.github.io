@@ -11,6 +11,11 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
 	crossorigin="anonymous"></script>
 	<script src="jquery.aniview.js"></script>
+	<script>
+        $(document).ready(function(){
+            $('.aniview').AniView();
+        });
+    </script>
 </head>
 <body>
 	<section>
@@ -44,7 +49,7 @@
 					<br>
 					<div class="facts">
 						<div class="fact">
-							<div class="aniview" data-av-animation="slideInRight">
+							<div class="aniview" data-av-animation="fadeIn">
 								<h5>Fact 1</h5>
 								<h3>Women are people!</h3>
 								<p>If you, too, are a person, this should be great news! You’ve already got things in common—likes, dislikes, feelings, thoughts, and more. It’s a great place to start.</p>
@@ -53,7 +58,7 @@
 						<div class="fact">
 							<h5>Fact 2</h5>
 							<h3>They possess intelligence.</h3>
-							<p>Like men, women are passed down traits from their parents, one of which being some level of intelligence. Don’t go in thinking you’re bound to dazzle her with your wit simply because you’re a guy, instead, assume that she may be able to challenge you.</p>
+							<p>Like men, women are passed down traits from their parents, one of which being some level of intelligence. Don’t go in thinking you’re bound to dazzle her with your wit simply because you’re a guy, instead, assume that she can keep up just fine--and may be able to challenge you.</p>
 						</div>
 						<div class="fact">
 							<h5>Fact 3</h5>
@@ -83,15 +88,3 @@
 	</section>
 </body>
 </html>
-
-<script>
-
-	$(document).ready(function(){
-
-		var options = {
-    	animateThreshold: 100,
-    	scrollPollInterval: 20
-	}
-	$('.aniview').AniView(options);
-
-});
