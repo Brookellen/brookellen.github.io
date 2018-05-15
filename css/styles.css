@@ -254,7 +254,7 @@ button a {
 
 .long-form img:first-of-type {
 	min-width: 30vh;
-	margin-top: -10vh;
+	margin-top: 10vh;
 }
 
 .long-form a {
