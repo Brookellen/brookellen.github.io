@@ -8,7 +8,14 @@
 	<link rel="stylesheet" type="text/css" href="./css/grid.css">
 	<link rel="stylesheet" type="text/css" href="./css/styles.css">
 	<link rel="stylesheet" type="text/css" href="./css/responsive.css">
-	<script src="jquery.aniview.js"></script></head>
+	<script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.aniview.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.aniview').AniView();
+        });
+    </script>
+</head>
 <body>
 	<section>
 		<h1>Should I Say That?</h1>
@@ -178,12 +185,6 @@
 
 		});
 
-		var options = {
-		    animateThreshold: 100,
-		    scrollPollInterval: 50
-		}
-		$('.aniview').AniView(options);
-		
 	});
 
 	</script>
