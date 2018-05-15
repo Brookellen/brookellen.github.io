@@ -252,7 +252,7 @@ button a {
 	margin-bottom: -.025rem;
 }
 
-.long-form img:first-of-type {
+.long-form img {
 	min-width: 30vh;
 	margin-top: 10vh;
 }
