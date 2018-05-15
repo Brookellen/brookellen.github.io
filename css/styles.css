@@ -253,10 +253,8 @@ button a {
 }
 
 .long-form img:first-of-type {
-	max-width: 12vh;
-	margin-top: 6vh;
-	opacity: .75;
-	margin-bottom: 6vh;
+	min-width: 30vh;
+	margin-top: -10vh;
 }
 
 .long-form a {
