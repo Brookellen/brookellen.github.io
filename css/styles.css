@@ -253,8 +253,8 @@ button a {
 }
 
 .long-form img {
-	min-width: 30vh;
-	margin-top: 10vh;
+	max-width: 30vh;
+	margin-top: -10vh;
 }
 
 .long-form a {
