@@ -254,7 +254,7 @@ button a {
 
 .long-form img {
 	max-width: 30vh;
-	margin-top: -10vh;
+	margin-top: -12vh;
 }
 
 .long-form a {
@@ -262,7 +262,7 @@ button a {
 	font-weight: bold;
 	cursor: pointer;
 	text-decoration: none;
-	border-bottom: 8px solid rgba(33, 150, 243, .5);
+	border-bottom: 6px solid rgba(255, 255, 255, .65);
 }
 
 .white {
