@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="./css/grid.css">
 	<link rel="stylesheet" type="text/css" href="./css/styles.css">
 	<link rel="stylesheet" type="text/css" href="./css/responsive.css">
+	<link type="text/css" rel="stylesheet" href="./css/animate.css">
 	<script type="text/javascript" src="jquery.min.js"></script>
     <script type="text/javascript" src="jquery.aniview.js"></script>
     <script>
@@ -45,7 +46,7 @@
 							    <option data-rating="-1" value="girl">girl</option>	
 							    <option data-rating="-2" value="sweetie">sweetie</option>
 							    <option data-rating="-3" value="baby">baby</option>
-							    <option data-rating="-4" value="ho">hoe</option>
+							    <option data-rating="-4" value="ho">ho</option>
 						  	</select>
 						</span>
 						. 
@@ -55,12 +56,12 @@
 								<option value="" disabled selected>verb
 								</option>
 							    <option data-rating="3" value="reading my favorite book">reading my favorite book</option>
-							    <option data-rating="2" value="laughing with friends">laughing with friends</option>
-							    <option data-rating="1" value="smiling ">smiling</option>
+							    <option data-rating="2" value="smiling">smiling</option>
+							    <option data-rating="1" value="with your friends">with your friends</option>
 							    <option data-rating="0" value="over there">over there</option>
 							    <option data-rating="-1" value="glancing my way">glancing my way</option>
 							    <option data-rating="-2" value="acting drunk">acting drunk</option>
-							    <option data-rating="-3" value="looking lonely">looking lonely</option>
+							    <option data-rating="-3" value="looking thirsty">looking thirsty</option>
 							</select>	
 						</span>
 						 
@@ -157,12 +158,12 @@
 	<script>
 
 	$(document).ready(function(){
+	  
+		$('button.submit').click(function(){
 
 		$('.good-results').hide();
 		$('.neutral-results').hide();
 		$('.bad-results').hide();
-	  
-		$('button.submit').click(function(){
 
 
 			var dataRatings = [];
