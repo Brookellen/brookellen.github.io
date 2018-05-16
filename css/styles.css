@@ -69,6 +69,10 @@ a {
 	color: inherit;
 }
 
+.good-results, .bad-results, .neutral-results {
+	display: none;
+}
+
 .results a {
 	color: #471fb9;
 	font-weight: bold;

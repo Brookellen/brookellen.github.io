@@ -161,28 +161,27 @@
 	  
 		$('button.submit').click(function(){
 
-		$('.good-results').hide();
-		$('.neutral-results').hide();
-		$('.bad-results').hide();
+			$('.good-results, .neutral-results, .bad-results').slideUp(400, function() {
 
+				var dataRatings = [];
 
-			var dataRatings = [];
+				$(':selected').each(function(){
+				  dataRatings.push($(this).data('rating'));
+				});
 
-			$(':selected').each(function(){
-			  dataRatings.push($(this).data('rating'));
+				var ratingTotal = dataRatings.reduce(function(acc, val) { return acc + val; });
+
+				if (ratingTotal > 4) {
+				  $('.good-results').slideDown();
+				}
+				else if(ratingTotal > -2) {
+				  $('.neutral-results').slideDown();
+
+				} else {
+				  $('.bad-results').slideDown();
+				}
+
 			});
-
-			var ratingTotal = dataRatings.reduce(function(acc, val) { return acc + val; });
-
-			if (ratingTotal > 4) {
-			  $('.good-results').slideDown();
-			}
-			else if(ratingTotal > -2) {
-			  $('.neutral-results').slideDown();
-
-			} else {
-			  $('.bad-results').slideDown();
-			}
 
 		});
 
