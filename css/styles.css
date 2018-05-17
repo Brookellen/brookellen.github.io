@@ -10,7 +10,8 @@
 body {
 	color: #262626;
 	text-align: center;
-	background: -webkit-linear-gradient(top, #FF7738 0%,#ff8b4d 100%);
+	/*background: -webkit-linear-gradient(top, #FF7738 0%,#ff8b4d 100%);*/
+	background: #1E88E5;
 }
 
 h1 {
