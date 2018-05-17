@@ -222,6 +222,7 @@
 
     .results p {
       line-height: 1.75rem;
+      margin: 0;
     }
 
     .fact {
