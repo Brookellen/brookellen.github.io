@@ -194,11 +194,12 @@ button a {
 .mad-lib button {
 	/*background: #471fb9;*/
 	background: #FFC107;
+	color: #303f9f;
 	margin-top: 2.5rem;
 }
 
 .mad-lib button:hover {
-	background-color: #5a3cc5;
+	background-color: #ffeb3b;
 }
 
 .submit {
