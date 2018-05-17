@@ -249,4 +249,9 @@
       border-bottom: 6px solid rgba(33, 150, 243, .5);
     }
 
+    .content-block p {
+      margin-bottom: 6vh;
+      max-width: 85%;
+    }
+
 }
