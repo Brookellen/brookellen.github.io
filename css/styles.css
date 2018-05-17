@@ -192,7 +192,8 @@ button a {
 }
 
 .mad-lib button {
-	background: #471fb9;
+	/*background: #471fb9;*/
+	background: #FFC107;
 	margin-top: 2.5rem;
 }
 
