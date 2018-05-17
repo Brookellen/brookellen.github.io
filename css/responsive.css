@@ -234,11 +234,15 @@
       max-width: 85%;
     }
 
+    .long-form p {
+      margin-bottom: 7vh;
+    }
+
     .long-form img {
       min-width: 8vh;
       max-width: 30vh
-      margin-top: 2vh;
-      margin-bottom: 2vh;
+      margin-top: 3vh;
+      margin-bottom: 1.5vh;
     }
 
     .long-form a {
