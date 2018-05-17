@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css?family=Work+Sans:400,700,800");
 
 
-
 :root {
 	--r-grid-unit: calc(100% / 12);
 }
@@ -286,4 +285,20 @@ button a {
 
 .hero h1 {
 	color: #6c7d8c;
+}
+
+div#st-1 .st-btn[data-network='facebook'] {
+    background-color: #25468c;
+}
+
+div#st-1 .st-btn[data-network='twitter'] {
+    background-color: #56b6ff;
+}
+
+div#st-1 .st-btn[data-network='email'] {
+    background-color: #ffb74d;
+}
+
+div#st-1 .st-btn {
+	margin-bottom: 15vh;
 }
