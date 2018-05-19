@@ -50,6 +50,10 @@
         width: 100%;
     }
 
+    .logo {
+      min-width: 90vh;
+    }
+
     h1 {
       font-size: 4.5rem;
     }
@@ -72,6 +76,11 @@
 
     .container {
       width: 100%;
+    }
+
+    .logo {
+        max-width: 75vh;
+        min-width: 40vh;
     }
 
     h1 {
@@ -105,6 +114,11 @@
 
     .container {
       width: 100%;
+    }
+
+    .logo {
+        max-width: 60vh;
+        min-width: 40vh;
     }
 
     .mad-lib {
@@ -156,6 +170,11 @@
     .container {
       width: 100%;
     }
+
+    .logo {
+    max-width: 45vh;
+    min-width: 40vh;
+}
 
     button {
       font-size: .85rem;
