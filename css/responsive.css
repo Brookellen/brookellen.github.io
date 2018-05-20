@@ -172,8 +172,7 @@
     }
 
     .logo {
-    max-width: 45vh;
-    min-width: 40vh;
+    width: 250px;
 }
 
     button {
