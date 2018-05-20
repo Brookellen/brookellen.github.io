@@ -101,6 +101,11 @@ button a {
 .logo {
     padding: 12vh 0 4vh 0;
     min-width: 120vh;
+    font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+	font-size: 2.5rem;
+	letter-spacing: .025rem;
+	color: #fbfdff;
 }
 
 .good-results, .bad-results, .neutral-results {
